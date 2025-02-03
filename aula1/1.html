@@ -1,11 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<style >
+      body {
+    font-family: 'Lucida Sans';
+    color: #000000;
+    background: #c2c0be;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.1);
+}
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+#info-panel {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+}
+#info-panel img {
+    max-width: 100%;
+    margin-top: 20px;
+}
+#facts {
+    background-image: url("stars2.png");
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+footer {
+    padding: 10px;
+    text-align: center;
+}
+a {
+    font-family: 'Lucida Sans';
+    text-decoration: none;
+    /* Remove o sublinhado */
+    color: inherit;
+    /* Faz o link herdar a cor do elemento pai, ou você pode definir uma cor específica */
+}
+</style>
+    <title>Hidrogênio</title>
 </head>
 <body>
-    <h1>1</h1>
+    <header>
+        <h1>Hidrogênio</h1>
+    </header>
+    <main>
+        <section id="info-panel">
+            <h3 id="1Hidrogênio">
+            <h2>Hidrogênio</h2>
+            <p>O Hidrogênio é o elemento químico com número atômico <strong>1</strong> e é representado pelo símbolo <strong>H</strong>. Sua massa atômica é de <strong>1u</strong>.</p>
+            <p>Ele está posicionado no primeiro período da família IA (metais alcalinos) da Tabela Periódica, mas não faz parte dela, já que não apresenta características físicas e químicas semelhantes aos elementos dessa família. Foi incluído nela por se assemelhar em relação ao subnível mais externo (s1).</p>
+            <img src="img/hidrogenio.jpg" alt="Imagem representativa do Hidrogênio">
+        </section>
+        <section id="facts">
+            <h3>Alguns fatos interessantes:</h3>
+            <ul>
+                <li> Em latim Hidrogenyum.</li>
+                <li>Foi descoberto no ano de 1766 pelo físico-químico francês Henry Cavendish.</li>
+                <li> É o elemento mais abundante do universo.</li>
+                <li>Trata-se de um elemento com características únicas, ou seja, não se assemelha a nenhum outro elemento químico conhecido pelo ser humano, não sendo nem metal nem ametal.</li>
+                <li>Camada de Valência:</li>
+                <h2>1s^1</h2>
+            </ul>
+        </section>
+    </main>
+    <p><p><strong>Volte para a tabela </strong><a href="tabelaperiodica2.html"><figure><img src= "img/home.png" alt=""></a></p></p>
 </body>
 </html>
